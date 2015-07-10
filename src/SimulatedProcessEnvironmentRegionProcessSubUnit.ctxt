@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=regionProcessSubUnitLocation\ regionProcessSubUnitDimension\ regionProcessSubUnitColour
+comment0.target=SimulatedProcessEnvironmentRegionProcessSubUnit(java.awt.Point,\ java.awt.Dimension,\ java.awt.Color)
+comment1.params=
+comment1.target=java.awt.Color\ getColour()
+comment2.params=
+comment2.target=java.awt.Rectangle\ getRegionProcessSubUnitBody()
+comment3.params=graphics2d
+comment3.target=void\ draw(java.awt.Graphics2D)
+numComments=4

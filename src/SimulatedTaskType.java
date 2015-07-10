@@ -1,0 +1,1 @@
+public enum SimulatedTaskType { NEW, WAITING, RUNNING, READY, TERMINATED };
