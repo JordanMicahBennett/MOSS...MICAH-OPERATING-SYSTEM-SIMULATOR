@@ -1,5 +1,7 @@
 How was moss formed?
 
+
+
 1.I observed that the kernel is an essential part of an operating system.
 
 2.Furthermore, seeing the microkernel as a type of kernel, I decided to model the code itself from the workings of a microkernel based system.
@@ -22,4 +24,6 @@ b.(real life component)message passing= (code component)simulated process enviro
 a.(real life component)handling system= (code component)simulated task scheduler 
 
 b.(real life component)tasks= (code component)simulated task
+
+
 
