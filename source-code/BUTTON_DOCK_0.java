@@ -47,12 +47,12 @@ public class BUTTON_DOCK_0 extends UNICODE_MenuPanel
                    {
                        if ( guiPanel.SIMULATED_PROCESS_ENVIRONMENT.SIMULATED_TASK_SCHEDULER.SIMULATED_TASKS.get ( 0 ).isEnabled ( ) )
                        {
-                           new UNICODE_MessageBoxWindow ( true, "only one instance of ["+taskName0+"] allowed", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
+                           new UNICODE_MessageBoxWindow ( true, "only one instance of ["+taskName0+"] allowed", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
                        }
                        else     
                        {
                            guiPanel.SIMULATED_PROCESS_ENVIRONMENT.SIMULATED_TASK_SCHEDULER.SIMULATED_TASKS.get ( 0 ).setEnabled ( true );
-                           new UNICODE_MessageBoxWindow ( true, "started task 0 ["+taskName0+"]", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
+                           new UNICODE_MessageBoxWindow ( true, "started task 0 ["+taskName0+"]", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
                        }
                     }
                }
@@ -67,12 +67,12 @@ public class BUTTON_DOCK_0 extends UNICODE_MenuPanel
                    {
                        if ( guiPanel.SIMULATED_PROCESS_ENVIRONMENT.SIMULATED_TASK_SCHEDULER.SIMULATED_TASKS.get ( 1 ).isEnabled ( ) )
                        {
-                           new UNICODE_MessageBoxWindow ( true, "only one instance of ["+taskName1+"] allowed", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
+                           new UNICODE_MessageBoxWindow ( true, "only one instance of ["+taskName1+"] allowed", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
                        }
                        else     
                        {
                            guiPanel.SIMULATED_PROCESS_ENVIRONMENT.SIMULATED_TASK_SCHEDULER.SIMULATED_TASKS.get ( 1 ).setEnabled ( true );
-                           new UNICODE_MessageBoxWindow ( true, "started task 0 ["+taskName1+"]", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
+                           new UNICODE_MessageBoxWindow ( true, "started task 0 ["+taskName1+"]", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
                        }
                     }
                }
@@ -87,19 +87,19 @@ public class BUTTON_DOCK_0 extends UNICODE_MenuPanel
                    {
                        if ( guiPanel.SIMULATED_PROCESS_ENVIRONMENT.SIMULATED_TASK_SCHEDULER.SIMULATED_TASKS.get ( 2 ).isEnabled ( ) )
                        {
-                           new UNICODE_MessageBoxWindow ( true, "only one instance of ["+taskName2+"] allowed", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
+                           new UNICODE_MessageBoxWindow ( true, "only one instance of ["+taskName2+"] allowed", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
                        }
                        else     
                        {
                            guiPanel.SIMULATED_PROCESS_ENVIRONMENT.SIMULATED_TASK_SCHEDULER.SIMULATED_TASKS.get ( 2 ).setEnabled ( true );
-                           new UNICODE_MessageBoxWindow ( true, "started task 0 ["+taskName2+"]", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
+                           new UNICODE_MessageBoxWindow ( true, "started task 0 ["+taskName2+"]", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
                        }
                     }
                 }
             );
             
             audioPlayer.playAudio ( "" + getAudioByAlias ( "e" ) ); 
-            new UNICODE_MessageBoxWindow ( true, taskThread0, taskThread1, taskThread2, "Notepad :--: Calculator :--: Paint :--: Cancel", 0.9f,  new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/new - task/","rr", 64, 64, 20, 20, 0, 0 );
+            new UNICODE_MessageBoxWindow ( true, taskThread0, taskThread1, taskThread2, "Notepad :--: Calculator :--: Paint :--: Cancel", 0.9f,  new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/new - task/","rr", 64, 64, 20, 20, 0, 0 );
         }
         
         
@@ -124,12 +124,12 @@ public class BUTTON_DOCK_0 extends UNICODE_MenuPanel
                     {
                        public void run ( )
                        {
-                           new UNICODE_MessageBoxWindow ( true, "You need to start a task, with the 'new task' button!", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
+                           new UNICODE_MessageBoxWindow ( true, "You need to start a task, with the 'new task' button!", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
                        }
                     }
                 );
                 
-                new UNICODE_MessageBoxWindow ( true, runErrorThread, "NOTHING TO PLAY!", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay - threaded/","rr", 72, 72, 20, 20, 0, 0 );            
+                new UNICODE_MessageBoxWindow ( true, runErrorThread, "NOTHING TO PLAY!", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay - threaded/","rr", 72, 72, 20, 20, 0, 0 );            
             }
         }
         
@@ -155,12 +155,12 @@ public class BUTTON_DOCK_0 extends UNICODE_MenuPanel
                     {
                        public void run ( )
                        {
-                           new UNICODE_MessageBoxWindow ( true, "You need to start a task, with the 'new task' button!", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
+                           new UNICODE_MessageBoxWindow ( true, "You need to start a task, with the 'new task' button!", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
                        }
                     }
                 );
                 
-                new UNICODE_MessageBoxWindow ( true, runErrorThread, "NOTHING TO PAUSE!", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay - threaded/","rr", 72, 72, 20, 20, 0, 0 );            
+                new UNICODE_MessageBoxWindow ( true, runErrorThread, "NOTHING TO PAUSE!", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay - threaded/","rr", 72, 72, 20, 20, 0, 0 );            
             }
         }
         
@@ -188,12 +188,12 @@ public class BUTTON_DOCK_0 extends UNICODE_MenuPanel
                     {
                        public void run ( )
                        {
-                           new UNICODE_MessageBoxWindow ( true, "You need to start a task, with the 'new task' button!", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
+                           new UNICODE_MessageBoxWindow ( true, "You need to start a task, with the 'new task' button!", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
                        }
                     }
                 );
                 
-                new UNICODE_MessageBoxWindow ( true, runErrorThread, "NOTHING TO STEP THROUGH!", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay - threaded/","rr", 72, 72, 20, 20, 0, 0 );            
+                new UNICODE_MessageBoxWindow ( true, runErrorThread, "NOTHING TO STEP THROUGH!", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay - threaded/","rr", 72, 72, 20, 20, 0, 0 );            
             }
         }
         
@@ -221,12 +221,12 @@ public class BUTTON_DOCK_0 extends UNICODE_MenuPanel
                     {
                        public void run ( )
                        {
-                           new UNICODE_MessageBoxWindow ( true, "You need to start a task, with the 'new task' button!", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
+                           new UNICODE_MessageBoxWindow ( true, "You need to start a task, with the 'new task' button!", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay/","rr", 72, 72, 20, 20, 0, 0 );    
                        }
                     }
                 );
                 
-                new UNICODE_MessageBoxWindow ( true, runErrorThread, "NOTHING TO RESTART!", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay - threaded/","rr", 72, 72, 20, 20, 0, 0 );            
+                new UNICODE_MessageBoxWindow ( true, runErrorThread, "NOTHING TO RESTART!", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay - threaded/","rr", 72, 72, 20, 20, 0, 0 );            
             }
         }
         
@@ -240,7 +240,7 @@ public class BUTTON_DOCK_0 extends UNICODE_MenuPanel
             guiPanel.SIMULATED_PROCESS_ENVIRONMENT.updateProcessExecutionSpeed ( );
             int numberOfActiveSimulatedCores = guiPanel.SIMULATED_PROCESS_ENVIRONMENT.getNumberOfActiveSimulatedCores ( );
             
-            new UNICODE_MessageBoxWindow ( true, "Simulated CPU speed changed! now using " + numberOfActiveSimulatedCores + " core(s)", 0.9f, new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 245, 245, 245 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay - threaded/","rr", 72, 72, 20, 20, 0, 0 );            
+            new UNICODE_MessageBoxWindow ( true, "Simulated CPU speed changed! now using " + numberOfActiveSimulatedCores + " core(s)", 0.9f, new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 255, 255, 255 ), new Color ( 170, 170, 170 ), true, "data/images/all/message box/okay - threaded/","rr", 72, 72, 20, 20, 0, 0 );            
         }
         
         //quit software

@@ -59,7 +59,7 @@ public class SimulatedTaskScheduler
         
         //establish status panel
         STATUS_PANEL = new JPanel ( );
-        STATUS_PANEL.setBackground ( new Color ( 245, 245, 245 ) );
+        STATUS_PANEL.setBackground ( guiPanel.configurationManager.getColourFromFile ( ) );
 
         STATUS_PANEL.add ( statusReportCoreLabel );
 

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=guiPanel\ regionConnectorStartPoint\ regionConnectorEndPoint\ regionConnectorCurveThreshold\ regionConnectorColour\ taskManipulationType\ regionConnectorLabelString
+comment0.target=SimulatedProcessEnvironmentRegionConnector(UNICODE_GuiPanel,\ java.awt.Point,\ java.awt.Point,\ java.awt.Dimension,\ java.awt.Color,\ SimulatedTaskManipulationType,\ java.lang.String)
+comment1.params=
+comment1.target=java.awt.Color\ getRegionConnectorColour()
+comment2.params=
+comment2.target=java.awt.geom.QuadCurve2D\ getRegionConnectorBody()
+comment3.params=taskName
+comment3.target=java.lang.String\ getStatus(java.lang.String)
+comment4.params=
+comment4.target=java.util.ArrayList\ getPoints()
+comment5.params=
+comment5.target=java.util.ArrayList\ getReversePoints()
+comment6.params=graphics2d
+comment6.target=void\ draw(java.awt.Graphics2D)
+numComments=7

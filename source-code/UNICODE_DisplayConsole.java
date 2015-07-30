@@ -15,7 +15,7 @@ public class UNICODE_DisplayConsole
         //establish covenience pack
         static UNICODE_ConveniencePack conveniencePack = new UNICODE_ConveniencePack ( );
         //establish duration pack for all splash panels //DEFAULT ~  { 500, 500, 400 }; //TESTING = { 10, 10, 10 };
-        static int [ ] splashPanelDurationCollection = { 500, 500, 400 };
+        static int [ ] splashPanelDurationCollection = { 100, 100, 40 };
         //establsih gui panel: takes frame,
         
         static UNICODE_GuiPanel mainProgramPanel = new UNICODE_GuiPanel ( frame, conveniencePack.getArraySum ( splashPanelDurationCollection ) );
